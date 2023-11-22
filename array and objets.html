@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/image.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet"> 
+    
+    <style>
+        #startquiz, #Quizbox , #Resultat{
+            max-width: 600px;
+            margin: 90px auto 0px auto;
+            border-radius: 40px;
+            
+            opacity: 0.6;
+            
+           
+             
+        }
+
+
+        body {
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:black;
+}
+section{
+height:100%;
+width:100%;
+  position:absolute ;  background:radial-gradient(#333,#000);
+}
+.leaf{
+    position:absolute ;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+.leaf div{
+position:absolute ;
+display:block ;
+}
+.leaf div:nth-child(1){
+    left:20%; 
+    animation:fall 15s linear infinite ;
+    animation-delay:-2s;
+
+}
+.leaf div:nth-child(2){
+    left:70%; 
+    animation:fall 15s linear infinite ;
+    animation-delay:-4s;
+}
+.leaf div:nth-child(3){
+    left:10%; 
+    animation:fall 20s linear infinite ;
+    animation-delay:-7s;
+    
+}
+.leaf div:nth-child(4){
+    left:50%; 
+   animation:fall 18s linear infinite ; 
+   animation-delay:-5s;
+}
+.leaf div:nth-child(5){
+    left:85%; 
+    animation:fall 14s linear infinite ;
+    animation-delay:-5s;
+}
+.leaf div:nth-child(6){
+    left:15%; 
+    animation:fall 16s linear infinite ;
+    animation-delay:-10s;
+}
+.leaf div:nth-child(7){
+    left:90%; 
+    animation:fall 15s linear infinite ;
+    animation-delay:-4s;
+}
+
+@keyframes fall{
+    0%{
+        opacity:1;
+        top:-10%;
+        transform:translateX (20px) rotate(0deg);
+    }
+    20%{
+        opacity:0.8;
+        transform:translateX (-20px) rotate(45deg);
+    }
+    40%{
+
+        transform:translateX (-20px) rotate(90deg);
+    }
+    60%{
+        
+       transform:translateX (-20px) rotate(135deg); 
+    }
+    80%{
+    
+        transform:translateX (-20px) rotate(180deg);
+    }
+    100%{
+        
+        top:110%;
+        transform:translateX (-20px) rotate(225deg);
+    }
+    }
+.leaf1{
+    transform: rotateX(180deg);
+}
+h2{
+    position:absolute ;
+    top:40%;
+    width:100%;
+    font-family: 'Courgette', cursive;
+    font-size:4em;
+    text-align:center;
+    transform:translate ;
+    color:#fff;
+    transform:translateY (-50%);
+}
+    </style>
+</head>
+<body>
+    
+
+
+
+
+   
+    
+    
+    <section>
+       
+        
+      </div>
+         <div class="leaf">
+         <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+          <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+          <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+          <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+           <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+         <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+         
+                
+         </div>
+         
+         <div class="leaf leaf1">
+         <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+          <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+          <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+          <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+          <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+           <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+         <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+         <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+        
+                
+         </div>
+         
+         <div class="leaf leaf2">
+         <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+          <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+          <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+          <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+          <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+    
+           <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+         <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+         <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+         <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></div>
+                
+         </div>
+
+
+ <div id="startquiz" class="bg-light p-5 shadow-lg">
+            <h1 class="text-center text-dark">jesus christ</h1>
+            <hr class="mb-4">
+            <input type="text" id="playerName" placeholder="Entre votre Nom" class="form-control w-50 m-auto">
+            <input type="button" value="start quiz" id="startquizBtn" class="btn btn-dark mt-3 m-auto d-block">
+    
+           </div>
+    
+    
+           <div id="Quizbox" class="bg-light p-5 shadow-lg">
+            <div class="row">
+                <div class="col"> <h4 id="changePlayerName" class="text-break">playe</h4></div>
+                <div class="col"> <h4 id="Time" class="text-center">00:00</h4></div>
+                <div class="col"> <h4 id="Points" class="float-end">Points:0</h4></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col"><h3 id="q" class="text-center">QUESTION</h3></div>
+            </div>
+            <div class="row row-cols-2 mt-4">
+                <div class="col"><input type="button" value="a" id="a" class=" opt btn btn-dark w-100 m-3"></div>
+                <div class="col"><input type="button" value="b" id="b" class="opt btn btn-dark w-100 m-3"></div>
+                <div class="col"><input type="button" value="c" id="c" class=" opt btn btn-dark w-100 m-3"></div>
+                <div class="col"><input type="button" value="d" id="d" class="opt btn btn-dark w-100 m-3"></div>
+                
+               </div>
+               <hr class="mt-5">
+               <div class="row">
+                <div class="col"><h6 id="QuestionNo">QUESTION NO. 0/0</h6></div>
+                <div class="col"><input type="button" value="50-50" class="btn btn-dark w-50 d-block m-auto" id="lifeline"></div>
+                <div class="col "><input type="button" value="Next" class="float-end btn btn-outline-dark w-50" id="Nextquestion"></div>
+               </div>
+           </div>
+           <div id="Resultat" class="bg-light p-5 shadow">
+            
+                <h6 id="finalpoint" class="text-center m-auto">Final point : 0</h6>
+                <h6 id="restart"><input type="button" value="Restart" class="btn btn-dark m-auto d-block mt-3">
+            
+           </div>
+
+         </section>
+         
+       
+         <script src="bootstrap-5/js/bootstrap.min.js"></script>
+         <script src="jquery/jquery.js"></script>
+         <script>
+            //=====question=====
+             var question=[
+                {
+                    q:" acteur le plus solide de la planette",
+                    a:" gannou",
+                    b:" tyson",
+                    c:" jackie",
+                    d:"vadame",
+                    ans:"b",
+                    opt1:"d",
+                    opt2:"a"
+                },
+                {
+                    q:" pays afrique centrale",
+                    a:" ngabon",
+                    b:" nigeria",
+                    c:" niger",
+                    d:"tchad",
+                    ans:"a",
+                    opt1:"b",
+                    opt2:"C"
+                },
+                {
+                    q:" le pays le plus peuple",
+                    a:" chine",
+                    b:" cameroun",
+                    c:" yaounde",
+                    d:"garoua",
+                    ans:"c",
+                    opt1:"d",
+                    opt2:"a"
+                },
+                {
+                    q:" le pays le plus peuple",
+                    a:" chine",
+                    b:" cameroun",
+                    c:" yaounde",
+                    d:"garoua",
+                    ans:"c",
+                    opt1:"d",
+                    opt2:"a"
+                },
+             ];
+             //=========default=========
+             $("#Quizbox").hide();
+             $("#Resultat").hide();
+             $("#Nextquestion").hide();
+    
+    
+             //======= variable======
+    
+             var pname ="";
+             var count=0;
+             var cid=""; 
+             var Points =0;
+             var len =question.length;
+             
+             
+             //====== startquizbtn======
+              
+             $("#startquizBtn").click(function(){
+                pname=$("#playerName").val();
+                
+                $("#startquiz").hide();
+                $("#Quizbox").show();
+    
+                if(pname!=""){
+                    $("#changePlayerName").text(pname);
+                }
+    
+                loadQuestion();
+                startTime();
+    
+    
+             });
+             //=========loadquestions=========
+    
+    
+             function loadQuestion(){
+                 $("#q").text(question[count].q);
+                 $("#a").val(question[count].a);
+                 $("#b").val(question[count].b);
+                 $("#c").val(question[count].c);
+                 $("#d").val(question[count].d);
+    
+                 $("#QuestionNo").text(`QUESTION NO. ${count+1}/${len}`);
+             }
+                //======= validation=====
+    
+                $(" .opt").click(function(){
+                    cid=$(this).attr("id");
+                     if( cid==question[count].ans){
+                        $(this).css("background", "green");
+                        Points++;
+                        $("#Points").text("Points: "+ Points);
+                     }else{
+                        $(this).css("background","red");
+                        $("#" + question[count].ans).css("background","green").fadeOut().fadeIn();
+                     }
+                     $(".opt").prop("disabled",true);
+                     $("#Nextquestion").show();
+                     
+    
+    
+                     
+                });
+    
+                           //======== next bouton==========
+    
+                   $("#Nextquestion").click(function(){
+                     count++;
+                     $(".opt").css("background", "");
+                     $(".opt").prop("disabled","");
+    
+    
+                     if(count>=len){
+                        $("#Quizbox").hide();
+                         $("#Resultat").show();
+                         $("#finalpoint").text(`Final point : ${Points}`);
+    
+                     }else{
+                        loadQuestion();
+                     }
+                     $("#Nextquestion").hide();
+                   })
+                   //======== Restart bouton==========
+                   $("#restart").click(function(){
+                        $("#Quizbox").show();
+                        $("#Resultat").hide();
+                         
+                         restart();
+                         loadQuestion();
+                         startTime();
+                   })
+                  
+    
+                   //============= restar ======
+    
+                   function restart(){
+                    count =0;
+                        Points =0;
+                        clearInterval(quiztime);
+                        $("#Time").text("00:00");
+                       $("#Points").text(`Points: 0`);
+                        $("#QuestionNo").text(`QUESTION NO. ${count+1}/${len}`);
+    
+                   }
+                     
+                   //=======Variable time======
+    
+    
+                   var totalmins=0;
+                   var convertedtosec=0;
+                   var remainingmins=0;
+                   var remainingsec=0;
+                   var quiztime="";
+    
+                   //======= fonction start time====
+    
+    
+                   function startTime(){
+    
+                    totalmins=2;
+                    convertedtosec=60*totalmins;
+                    
+                    
+                        function Time(){
+                        convertedtosec--; 
+                        remainingmins =Math.floor( convertedtosec/60);
+    
+                        remainingsec=convertedtosec%60;
+                        if(remainingmins<=9 && remainingmins>=0){
+                                
+                            remainingmins="0"+ remainingmins;
+                        }
+                        if(remainingsec<=9 && remainingsec>=0){
+                                
+                              remainingsec="0"+ remainingsec;
+                            }
+    
+                        $("#Time").text(`${remainingmins}:${remainingsec}`);
+    
+                        if(convertedtosec ==0){
+    
+                            clearInterval(quiztime);
+                            $("#Quizbox").hide();
+                            $("#Resultat").show();
+                        }
+                    }
+    
+                      quiztime = setInterval(Time,1000);
+                   }
+    
+                   //========lifeline=======
+    
+                   $("#lifeline").click(function(){
+                    $("#"+question[count].opt1).val("");
+                    $("#"+question[count].opt2).val("");
+    
+                    $("#"+question[count].opt1).prop("disabled","true");
+                    $("#"+question[count].opt2).prop("disabled","true");
+                    $("#lifeline".prop("disabled","true"));
+    
+                   });
+                   
+        </script>
+</body>
+</html>
